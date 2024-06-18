@@ -45,6 +45,7 @@ docker run \
   -v "/home/${USER}/${REPO_NAME}/Docker/${TAG}/tmp/.bash_history:/home/$(id -un)/.bash_history" \
   -v "/home/${USER}/${REPO_NAME}/Docker/${TAG}/tmp/.cache:/home/$(id -un)/.cache" \
   -v "/home/${USER}/${REPO_NAME}/Docker/${TAG}/tmp/.config:/home/$(id -un)/.config" \
+  -v "/home/${USER}/${REPO_NAME}/Docker/${TAG}/tmp/.netrc:/home/$(id -un)/.netrc" \
   -v "/etc/localtime:/etc/localtime:ro" \
   -v "/dev:/dev" \
   -v "/var/run/docker.sock:/var/run/docker.sock" \
