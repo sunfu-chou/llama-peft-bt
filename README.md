@@ -129,7 +129,7 @@ python3 generate_descriptions.py
 
 ### Convert the descriptions to the json format
 
-Modify the datasets name in the [`convert_description_to_json.py`](convert_description_to_json.py) [#5](https://github.com/sunfu-chou/llama-peft-bt/blob/master/convert_description_to_json.py#L5)
+Modify the datasets name in the [`convert_description_to_json.py`](convert_description_to_json.py) [#L5](https://github.com/sunfu-chou/llama-peft-bt/blob/master/convert_description_to_json.py#L5)
 
 ```python
 base_path = "data/inspection"
@@ -143,7 +143,7 @@ python3 convert_description_to_json.py
 
 ### Merge the json files
 
-Modify the task name in the [`merge_json_dataset.py`](merge_json_dataset.py) [#5](https://github.com/sunfu-chou/llama-peft-bt/blob/master/merge_json_dataset.py#L5)
+Modify the task name in the [`merge_json_dataset.py`](merge_json_dataset.py) [#L5](https://github.com/sunfu-chou/llama-peft-bt/blob/master/merge_json_dataset.py#L5)
 
 ```python
 dataset1_path = "data/visual_servoing/dataset.json"
@@ -158,7 +158,7 @@ python3 merge_json_dataset.py
 
 ### Push the dataset to the huggingface
 
-Modify the task name in the [`push_dataset_to_hub.py`](push_dataset_to_hub.py) [#3](https://github.com/sunfu-chou/llama-peft-bt/blob/master/push_dataset_to_hub.py#L3)
+Modify the task name in the [`push_dataset_to_hub.py`](push_dataset_to_hub.py) [#L3](https://github.com/sunfu-chou/llama-peft-bt/blob/master/push_dataset_to_hub.py#L3)
 
 ```python
 train_dataset = load_dataset("json", data_files="data/dataset.json")
@@ -185,7 +185,8 @@ python3 ./alpaca-lora/finetune.py \
     --data_path 'sunfu-chou/symbolic-bt' \
     --output_dir './output-test' \
     --batch_size 500 \
-    --micro_batch_size 10 \
+    --micro_batch_size 10 I will schedule some time for us to connect.
+
     --num_epochs 100 \
     --learning_rate 1e-4 \
     --cutoff_len 1024 \
