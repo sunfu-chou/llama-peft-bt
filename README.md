@@ -42,85 +42,88 @@ python3 generate_descriptions.py
 ### Data folder structure
 
 <details>
-  <summary>Click to expand the code</summary>
-    ```
-    data
-    ├── dataset.json
-    ├── inspection
-    │   ├── dataset.json
-    │   ├── description
-    │   │   ├── 0
-    │   │   │   ├── 0.txt
-    │   │   │   ├── ...
-    │   │   │   └── 49.txt
-    │   │   ├── ...
-    │   │   │   ├── 0.txt
-    │   │   │   ├── ...
-    │   │   │   └── 49.txt
-    │   │   └── 4
-    │   │       ├── 0.txt
-    │   │       ├── ...
-    │   │       └── 9.txt
-    │   ├── prompt
-    │   │   └── instruction.txt
-    │   ├── prompt-self-instruct
-    │   │   ├── input.txt
-    │   │   └── instruction.txt
-    │   └── tree
-    │       ├── 0.txt
-    │       ├── ...
-    │       └── 4.txt
-    ├── object_navigation
-    │   ├── dataset.json
-    │   ├── description
-    │   │   ├── 0
-    │   │   │   ├── 0.txt
-    │   │   │   ├── ...
-    │   │   │   └── 49.txt
-    │   │   ├── ...
-    │   │   │   ├── 0.txt
-    │   │   │   ├── ...
-    │   │   │   └── 49.txt
-    │   │   └── 4
-    │   │       ├── 0.txt
-    │   │       ├── ...
-    │   │       └── 9.txt
-    │   ├── prompt
-    │   │   └── instruction.txt
-    │   ├── prompt-self-instruct
-    │   │   ├── input.txt
-    │   │   └── instruction.txt
-    │   └── tree
-    │       ├── 0.txt
-    │       ├── ...
-    │       └── 4.txt
-    └── visual_servoing
-        ├── dataset.json
-        ├── description
-       │   ├── 0
-       │   │   ├── 0.txt
-       │   │   ├── ...
-       │   │   └── 49.txt
-       │   ├── ...
-       │   │   ├── 0.txt
-       │   │   ├── ...
-       │   │   └── 49.txt
-       │   └── 4
-       │       ├── 0.txt
-       │       ├── ...
-       │       └── 9.txt
-        ├── prompt
-        │   └── instruction.txt
-        ├── prompt-self-instruct
-        │   ├── input.txt
-        │   └── instruction.txt
-        └── tree
-            ├── 0.txt
-            ├── ...
-            └── 4.txt
 
-    30 directories, 778 files
-    ```
+  <summary>Click to expand the code</summary>
+  
+  ```
+  data
+  ├── dataset.json
+  ├── inspection
+  │   ├── dataset.json
+  │   ├── description
+  │   │   ├── 0
+  │   │   │   ├── 0.txt
+  │   │   │   ├── ...
+  │   │   │   └── 49.txt
+  │   │   ├── ...
+  │   │   │   ├── 0.txt
+  │   │   │   ├── ...
+  │   │   │   └── 49.txt
+  │   │   └── 4
+  │   │       ├── 0.txt
+  │   │       ├── ...
+  │   │       └── 9.txt
+  │   ├── prompt
+  │   │   └── instruction.txt
+  │   ├── prompt-self-instruct
+  │   │   ├── input.txt
+  │   │   └── instruction.txt
+  │   └── tree
+  │       ├── 0.txt
+  │       ├── ...
+  │       └── 4.txt
+  ├── object_navigation
+  │   ├── dataset.json
+  │   ├── description
+  │   │   ├── 0
+  │   │   │   ├── 0.txt
+  │   │   │   ├── ...
+  │   │   │   └── 49.txt
+  │   │   ├── ...
+  │   │   │   ├── 0.txt
+  │   │   │   ├── ...
+  │   │   │   └── 49.txt
+  │   │   └── 4
+  │   │       ├── 0.txt
+  │   │       ├── ...
+  │   │       └── 9.txt
+  │   ├── prompt
+  │   │   └── instruction.txt
+  │   ├── prompt-self-instruct
+  │   │   ├── input.txt
+  │   │   └── instruction.txt
+  │   └── tree
+  │       ├── 0.txt
+  │       ├── ...
+  │       └── 4.txt
+  └── visual_servoing
+      ├── dataset.json
+      ├── description
+     │   ├── 0
+     │   │   ├── 0.txt
+     │   │   ├── ...
+     │   │   └── 49.txt
+     │   ├── ...
+     │   │   ├── 0.txt
+     │   │   ├── ...
+     │   │   └── 49.txt
+     │   └── 4
+     │       ├── 0.txt
+     │       ├── ...
+     │       └── 9.txt
+      ├── prompt
+      │   └── instruction.txt
+      ├── prompt-self-instruct
+      │   ├── input.txt
+      │   └── instruction.txt
+      └── tree
+          ├── 0.txt
+          ├── ...
+          └── 4.txt
+
+  30 directories, 778 files
+  ```
+
 </details>
 
 
