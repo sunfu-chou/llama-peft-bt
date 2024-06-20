@@ -185,8 +185,7 @@ python3 ./alpaca-lora/finetune.py \
     --data_path 'sunfu-chou/symbolic-bt' \
     --output_dir './output-test' \
     --batch_size 500 \
-    --micro_batch_size 10 I will schedule some time for us to connect.
-
+    --micro_batch_size 10 \
     --num_epochs 100 \
     --learning_rate 1e-4 \
     --cutoff_len 1024 \
