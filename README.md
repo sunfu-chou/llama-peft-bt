@@ -198,7 +198,7 @@ python3 ./alpaca-lora/finetune.py \
 
 ### Inference
 
-Modify the input text in the [`alpaca-lora/inference.py`](alpaca-lora/inference.py) [#L44](https://github.com/sunfu-chou/alpaca-lora/blob/main/inference.py#L44)
+Modify the input text in the [`alpaca-lora/inference.py`](https://github.com/sunfu-chou/alpaca-lora/blob/main/inference.py) [#L44](https://github.com/sunfu-chou/alpaca-lora/blob/main/inference.py#L44)
 
 ```python
 input_text = "The behavior tree first checks if there is any object in view. If there is an object, it simultaneously executes control actions for linear x and linear y directions. If no object is in view, the robot will then proceed to explore a pattern block."
