@@ -2,7 +2,7 @@ import json
 import os
 
 # Define paths
-base_path = "data/inspection"
+base_path = "data/object_navigation"
 instruction_path = os.path.join(base_path, "prompt", "instruction.txt")
 input_dir = os.path.join(base_path, "description")
 output_dir = os.path.join(base_path, "tree")

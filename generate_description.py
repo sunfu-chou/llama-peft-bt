@@ -9,7 +9,7 @@ NUM_DESCRIPTION = 50
 
 client = OpenAI()
 
-base_path = "data/inspection"
+base_path = "data/object_navigation"
 instruction_path = os.path.join(base_path, "prompt-self-instruct", "instruction.txt")
 input_path = os.path.join(base_path, "prompt-self-instruct", "input.txt")
 tree_path = os.path.join(base_path, "tree")
