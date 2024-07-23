@@ -26,6 +26,16 @@ Run the following command in the docker container
 huggingface-cli download sunfu-chou/symbolic-bt --repo-type dataset
 ```
 
+```bash
+git clone git@hf.co:datasets/sunfu-chou/symbolic-bt
+```
+
+Then, move the data folder to the root folder.
+
+```bash
+mv symbolic-bt/data/ ./
+```
+
 ### Generate the descriptions for the trees
 
 Modify the task name in the [`generate_description.py`](generate_description.py) [#L12](https://github.com/sunfu-chou/llama-peft-bt/blob/master/generate_description.py#L12)
