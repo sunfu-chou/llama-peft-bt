@@ -47,7 +47,7 @@ base_path = "data/inspection"
 Run the following command in the docker container
 
 ```bash
-python3 generate_descriptions.py
+python3 generate_description.py
 ```
 ### Data folder structure
 
